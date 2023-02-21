@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.helloworld.HelloWorldApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-04T10:45:32" hostname="CLM150-1356.local" time="0.476">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.helloworld.HelloWorldApplicationTests" time="0.476"/>
+  <system-out><![CDATA[16:15:30.116 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [HelloWorldApplicationTests]: using SpringBootContextLoader
+16:15:30.124 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.helloworld.HelloWorldApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:15:30.125 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.helloworld.HelloWorldApplicationTests]: HelloWorldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:15:30.158 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [HelloWorldApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+16:15:30.293 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/hena.patel/Desktop/Propelo/Other/Projects/HelloWorld/build/classes/java/main/com/example/helloworld/HelloWorldApplication.class]
+16:15:30.298 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.helloworld.HelloWorldApplication for test class com.example.helloworld.HelloWorldApplicationTests
+16:15:30.381 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+16:15:30.383 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+16:15:30.385 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [HelloWorldApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+16:15:30.386 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [HelloWorldApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-04T16:15:30.804+05:30  INFO 13498 --- [    Test worker] c.e.h.HelloWorldApplicationTests         : Starting HelloWorldApplicationTests using Java 17.0.5 with PID 13498 (started by hena.patel in /Users/hena.patel/Desktop/Propelo/Other/Projects/HelloWorld)
+2023-01-04T16:15:30.807+05:30  INFO 13498 --- [    Test worker] c.e.h.HelloWorldApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-01-04T16:15:32.616+05:30  INFO 13498 --- [    Test worker] c.e.h.HelloWorldApplicationTests         : Started HelloWorldApplicationTests in 2.162 seconds (process running for 3.651)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
